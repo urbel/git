@@ -16,8 +16,6 @@ public class pattern {
 
 
         for (int i = 0; i <= rows; i++) {
-
-
             for (int j = rows; j > i; j--) {
                 System.out.print(" ");
             }
@@ -26,18 +24,29 @@ public class pattern {
             }
             System.out.println();
         }
+        System.out.println();
 
 
         for (int i = 0; i <= rows; i++) {
-
-
             for (int j = rows; j > i; j--) {
-                System.out.print(" ");
+                System.out.print("2");
             }
-            System.out.println();
             for (int k = 1; k <= (i * 2) - 1; k++) {
                 System.out.print("*");
             }
+
+            System.out.println();
+        }
+        for (int i = 0; i <= rows; i++) {
+            for (int j = rows; j > i; j--) {
+                System.out.print("1");
+            }
+            for (int k = 1; k <= (i * 2) - 1; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+
         }
     }
 }
+
